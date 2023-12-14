@@ -1,14 +1,14 @@
 {
-  "scripts": {
-    "demo": "rm -rf ./dist && rollup -c && node bundle.js"
-  },
-  "dependencies": {
-    "@types/lodash": "4.14.138",
-    "lodash": "4.17.15",
-    "rollup-plugin-typescript2": "0.24.0",
-    "typescript": "3.6.2"
-  },
-  "devDependencies": {
-    "rollup": "1.20.3"
-  }
+    "scripts": {
+        "start": "rm -rf ./dist && rollup -c && node bundle.js"
+    },
+    "dependencies": {
+        "@types/lodash": "4.14.138",
+        "lodash": "4.17.15",
+        "rollup-plugin-typescript2": "0.24.0",
+        "typescript": "3.6.2"
+    },
+    "devDependencies": {
+        "rollup": "1.20.3"
+    }
 }
